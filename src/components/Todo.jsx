@@ -22,7 +22,7 @@ export default function Todo({ todo, handleUpdateTodo, handleDeleteTodo }) {
   return (
     <div className="py-4 px-8 w-full sm:max-w-xl">
       <div className="flex items-center justify-between p-4 border rounded-md space-x-6">
-        <label htmlFor="checkbox" className="flex items-center space-x-4">
+        <label className="flex items-center space-x-4">
           <div>
             <input
               type="checkbox"
