@@ -61,6 +61,7 @@ export default function App() {
           <TodoComposer handleAddTodo={handleAddTodo} />
           {todos.length === 0 ? <p className="font-bold text-4xl">Let Add Some Todo's!!!</p> : todos.map((todo) => (
             <Todo
+            key={todo.id}
               todo={todo}
               handleUpdateTodo={handleUpdateTodo}
               handleDeleteTodo={handleDeleteTodo}
